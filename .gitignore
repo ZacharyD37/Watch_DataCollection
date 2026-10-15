@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Kotlin compiler (Kotlin 2.x session/cache files)
+.kotlin/
+
+# IntelliJ / Android Studio
+.idea/
+.vscode/
+*.iml
+/captures
+.externalNativeBuild
+.cxx
+
+# Local configuration (contains absolute SDK paths — machine specific)
+local.properties
+
+# Local secrets and signing credentials
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local research exports (never commit participant records)
+collected_data/
+recordings/
+U*_T*.csv
